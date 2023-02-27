@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8331127-dace-485c-946e-1ee8512bd731" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/sqlResources/teamsList.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/sqlResources/teamsList.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,8 @@
       <workItem from="1676770527380" duration="24000" />
       <workItem from="1677501982404" duration="6414000" />
       <workItem from="1677511713815" duration="382000" />
-      <workItem from="1677514366874" duration="1450000" />
+      <workItem from="1677514366874" duration="1502000" />
+      <workItem from="1677523088856" duration="401000" />
     </task>
     <servers />
   </component>
@@ -216,6 +217,11 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/StartingStageController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>

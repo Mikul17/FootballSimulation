@@ -365,6 +365,17 @@ public class Team {
                 DBmanager.setPlayerStats((Goalkeeper) player);
             }
         }
+        for(Player player : substitutes){
+            if (player instanceof Forward) {
+                DBmanager.setPlayerStats((Forward) player);
+            } else if (player instanceof Midfielder) {
+                DBmanager.setPlayerStats((Midfielder) player);
+            } else if (player instanceof Defender) {
+                DBmanager.setPlayerStats((Defender) player);
+            } else if (player instanceof Goalkeeper) {
+                DBmanager.setPlayerStats((Goalkeeper) player);
+            }
+        }
 
     }
     public boolean isHomeTeam () {
