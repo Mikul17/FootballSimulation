@@ -3,7 +3,7 @@ insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goa
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (3, "Berlin CF", null, null, null, null, null, null, null);
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (4, "Paris Football", null, null, null, null, null, null, null);
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (5, "Praga Athletics", null, null, null, null, null, null, null);
-insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (6, "Edinburgh FC", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (6, "Edinburgh CF", null, null, null, null, null, null, null);
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (7, "FC Kiev", null, null, null, null, null, null, null);
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (8, "FC Wroclaw", null, null, null, null, null, null, null);
 insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (9, "Roma CF", null, null, null, null, null, null, null);
