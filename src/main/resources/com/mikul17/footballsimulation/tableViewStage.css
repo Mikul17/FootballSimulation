@@ -1,0 +1,91 @@
+#pane{
+    -fx-background-color: #000000;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-attachment: fixed;
+    -fx-background-image: url("background.jpg");
+}
+
+#buttonsVBox{
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-start-margin: 150;
+    -fx-alignment: center;
+}
+
+#nextMatchButton,#teamButton, #exitButton{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10
+}
+
+
+#scoreboard{
+    -fx-spacing: 10;
+    -fx-start-margin: 150;
+    -fx-content-display: center;
+    -fx-alignment: center;
+    -fx-font-family: "Gill Sans MT";
+}
+
+#nextMatchButton:hover, #teamButton:hover,#exitButton:hover{
+    -fx-opacity: 0.8;
+}
+
+#nextMatchButton:pressed, #teamButton:pressed,#exitButton:pressed{
+    -fx-opacity: 0.4;
+}
+
+
+.table-view .column-header-background{
+    -fx-background-color: gray;
+    -fx-opacity: 0.5;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-size: 14;
+    -fx-font-family: "Gill Sans MT";
+    -fx-content-display: center;
+    -fx-text-alignment: center;
+}
+
+#currentWeekLabel{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-border-color:black;
+    -fx-border-width: 5px;
+    -fx-padding: 10px;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.scroll-bar:horizontal{
+    -fx-opacity: 0;
+}
+
+
+

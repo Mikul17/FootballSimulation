@@ -1,0 +1,52 @@
+#pane{
+    -fx-background-color: #000000;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-attachment: fixed;
+    -fx-background-image: url("background.jpg");
+}
+
+Button{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+Button:hover{
+    -fx-opacity: 0.8;
+}
+
+Button:pressed{
+    -fx-opacity: 0.4;
+}
+
+Text{
+    -fx-font-size: 96;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+Label{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-border-color:black;
+    -fx-border-width: 5px;
+    -fx-padding: 10px;
+}

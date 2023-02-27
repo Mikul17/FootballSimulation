@@ -1,0 +1,65 @@
+#pane{
+    -fx-background-color: #000000;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-attachment: fixed;
+    -fx-background-image: url("background.jpg");
+}
+
+#activeLabel, #benchLabel,#capitanLabel, #freekickLabel,#penaltyLabel{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-border-color:black;
+    -fx-border-width: 5px;
+    -fx-padding: 10px;
+}
+
+
+VBox{
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+}
+
+.list-cell{
+    -fx-text-alignment: center;
+    -fx-font: 15px "Gill Sans MT";
+    -fx-text-fill: black;
+    -fx-padding:12px;
+}
+
+ListView .list-cell:selected{
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}
+
+ListView:disabled{
+    -fx-opacity: 0.7;
+}
+
+#swapPlayersButton, #cancelButton, #addPlayerButton{
+    -fx-font-size: 20;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#swapPlayersButton:hover, #cancelButton:hover, #addPlayerButton:hover{
+    -fx-opacity: 0.8;
+}
+
+#swapPlayersButton:pressed, #cancelButton:pressed, #addPlayerButton:pressed{
+    -fx-opacity: 0.4;
+}

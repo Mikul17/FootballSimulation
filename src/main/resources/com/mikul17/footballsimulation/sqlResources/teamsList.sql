@@ -1,0 +1,10 @@
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (1, "FC Barcelona", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (2, "Real Madrid", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (3, "Legia Warszawa", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (4, "Liverpool CF", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (5, "Manchester United", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (6, "Manchester City", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (7, "FC Bayern", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (8, "Borussia Dortmund", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (9, "PSG", null, null, null, null, null, null, null);
+insert ignore into teams (teamID, teamName, wins, draws, loses, goalsScored, goalsConceded, goalsDifference, points) values (10, "Juventus", null, null, null, null, null, null, null);

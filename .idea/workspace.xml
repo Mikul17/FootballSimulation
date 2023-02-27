@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8331127-dace-485c-946e-1ee8512bd731" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/MatchDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/MatchResultStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/MatchStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/NextMatchStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/PlayerDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/SelectYourTeamStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/StartingStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/TableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/TableViewStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/TeamManagementStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/TeamModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/WinnerStageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/DBmanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Defender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Forward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Goalkeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Midfielder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikul17/footballsimulation/projekt/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/football.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchDetails.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchResultStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchResultStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/matchStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/nextMatchStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/nextMatchStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/playerDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/playerDetails.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/round_robin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/selectYourTeamStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/selectYourTeamStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/sqlResources/playerStatsList.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/sqlResources/playersList.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/sqlResources/teamsList.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/startingStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/startingStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/tableViewStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/tableViewStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/teamManagementStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/teamManagementStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/winnerStage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mikul17/footballsimulation/winnerStage.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2JTZ6NwiIyfUmBlvO8tEOcMxhaP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Programowanie/Java/FootballSimulation/src/main/java/com/mikul17/footballsimulation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/Java/FootballSimulation/src/main/resources/com/mikul17/footballsimulation/sqlResources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\resources\com\mikul17\footballsimulation\sqlResources" />
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\resources\com\mikul17\footballsimulation" />
+      <recent name="D:\Programowanie\Java\FootballSimulatiojn\src\main\java\com\mikul17\footballsimulatiojn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\resources\com\mikul17\footballsimulation" />
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\resources\com\mikul17\footballsimulation\sqlResources" />
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\resources" />
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\java\com\mikul17\footballsimulation\projekt\sqlResources" />
+      <recent name="D:\Programowanie\Java\FootballSimulation\src\main\java\com\mikul17\footballsimulation" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.mikul17.footballsimulation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mikul17.footballsimulation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.mikul17.footballsimulation.MainApplication">
+    <configuration name="com.mikul17.footballsimulation.MainApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mikul17.footballsimulation.MainApplication" />
+      <module name="FootballSimulatiojn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikul17.footballsimulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mikul17.footballsimulation.projekt.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mikul17.footballsimulation.projekt.Main" />
+      <module name="FootballSimulatiojn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikul17.footballsimulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.mikul17.footballsimulation.projekt.Main" />
+      <item itemvalue="Application.com.mikul17.footballsimulation.MainApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8331127-dace-485c-946e-1ee8512bd731" name="Changes" comment="" />
+      <created>1672101949096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672101949096</updated>
+      <workItem from="1672101950720" duration="1608000" />
+      <workItem from="1672103861261" duration="1950000" />
+      <workItem from="1672170267123" duration="12609000" />
+      <workItem from="1672244346348" duration="9722000" />
+      <workItem from="1672272333324" duration="4797000" />
+      <workItem from="1672369093906" duration="1000" />
+      <workItem from="1672654366531" duration="20698000" />
+      <workItem from="1672692007176" duration="1942000" />
+      <workItem from="1672701445887" duration="4752000" />
+      <workItem from="1672747954274" duration="9169000" />
+      <workItem from="1672762828427" duration="2245000" />
+      <workItem from="1672777575643" duration="57000" />
+      <workItem from="1672780631886" duration="49000" />
+      <workItem from="1672833034493" duration="16914000" />
+      <workItem from="1672860254136" duration="7810000" />
+      <workItem from="1672921096728" duration="12568000" />
+      <workItem from="1672938692756" duration="876000" />
+      <workItem from="1673108734466" duration="18000" />
+      <workItem from="1673207691260" duration="1000" />
+      <workItem from="1673211620637" duration="4000" />
+      <workItem from="1673306583759" duration="2000" />
+      <workItem from="1673309144449" duration="271000" />
+      <workItem from="1673310914953" duration="5000" />
+      <workItem from="1674053669082" duration="7000" />
+      <workItem from="1675341763491" duration="1907000" />
+      <workItem from="1675344090061" duration="10485000" />
+      <workItem from="1675356509869" duration="318000" />
+      <workItem from="1675426277076" duration="306000" />
+      <workItem from="1675427576251" duration="11958000" />
+      <workItem from="1675458636613" duration="128000" />
+      <workItem from="1675626356744" duration="1000" />
+      <workItem from="1675629147365" duration="1046000" />
+      <workItem from="1675685072104" duration="6162000" />
+      <workItem from="1675697768994" duration="7708000" />
+      <workItem from="1675714034836" duration="2466000" />
+      <workItem from="1675720944920" duration="721000" />
+      <workItem from="1675768702187" duration="1583000" />
+      <workItem from="1675771866102" duration="130000" />
+      <workItem from="1675772055354" duration="8284000" />
+      <workItem from="1675783142371" duration="5829000" />
+      <workItem from="1675851477166" duration="7569000" />
+      <workItem from="1675864866510" duration="1738000" />
+      <workItem from="1675866932914" duration="12623000" />
+      <workItem from="1675880729365" duration="366000" />
+      <workItem from="1675888356973" duration="3402000" />
+      <workItem from="1675946982743" duration="6932000" />
+      <workItem from="1676030294577" duration="18942000" />
+      <workItem from="1676059162564" duration="611000" />
+      <workItem from="1676136954764" duration="1794000" />
+      <workItem from="1676145871768" duration="2905000" />
+      <workItem from="1676155993429" duration="917000" />
+      <workItem from="1676212759370" duration="1105000" />
+      <workItem from="1676213877358" duration="2586000" />
+      <workItem from="1676220301558" duration="12871000" />
+      <workItem from="1676236649700" duration="3215000" />
+      <workItem from="1676242655478" duration="1748000" />
+      <workItem from="1676248542573" duration="4555000" />
+      <workItem from="1676299072090" duration="6332000" />
+      <workItem from="1676369862516" duration="15259000" />
+      <workItem from="1676453829160" duration="5353000" />
+      <workItem from="1676463350883" duration="9965000" />
+      <workItem from="1676473332609" duration="3911000" />
+      <workItem from="1676477829110" duration="1497000" />
+      <workItem from="1676544892552" duration="1138000" />
+      <workItem from="1676770527380" duration="24000" />
+      <workItem from="1677501982404" duration="6414000" />
+      <workItem from="1677511713815" duration="382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Midfielder" memberName="isInjured" />
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Team" memberName="startingField" />
+        <PinnedItemInfo parentTag="com.mysql.cj.jdbc.result.ResultSetImpl" memberName="session" />
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Midfielder" memberName="redCard" />
+        <PinnedItemInfo parentTag="com.mysql.cj.NativeSession" memberName="listeners" />
+        <PinnedItemInfo parentTag="javafx.scene.control.ListView" memberName="cellFactory" />
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Midfielder" memberName="injuryTime" />
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Midfielder" memberName="redCardTime" />
+        <PinnedItemInfo parentTag="com.mikul17.footballsimulation.projekt.Simulation" memberName="currentWeek" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="simulation" />
+        <watch expression="this" />
+        <watch expression="activePlayer" language="JAVA" />
+        <watch expression="this" />
+        <watch expression="pairs" language="JAVA" />
+        <watch expression="this" />
+        <watch expression="this.pairs" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FootballSimulation$com_mikul17_footballsimulation_MainApplication.ic" NAME="com.mikul17.footballsimulation.MainApplication Coverage Results" MODIFIED="1675877194822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mikul17.footballsimulation.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FootballSimulation$Main.ic" NAME="Main Coverage Results" MODIFIED="1672657851682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mikul17.footballsimulation.projekt.*</FILTER>
+    </SUITE>
+  </component>
+</project>
